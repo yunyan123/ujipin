@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+.container{
+  width: 100%;
+  height: 575px;
+  .contain{
+    width: 1150px;
+    height: 575px;
+    margin:0 auto;
+    ul{
+      width: 1150px;
+      height: 575px;
+      list-style: none;
+      overflow: hidden;
+      li{
+        a{
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

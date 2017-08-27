@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;}
+.contain {
+  width: 100%;
+  height: 610px;
+  .main {
+    width: 1150px;
+    height: 610px;
+    margin: 0 auto;
+    .down_app {
+      width: 430px;
+      height: 360px;
+      margin: 110px 80px;
+      float: left;
+      img{
+        width: 430px;
+        height: 360px;
+      }
+    }
+    .login_labe {
+      width: 305px;
+      height: 300px;
+      float: left;
+      line-height: 20px;
+      margin: 190px 80px;
+      font-size: 12px;
+      .phone_num{
+        width: 280px;
+        height: 20px;
+        span{
+          color:#e74c3c;
+          display: none;
+        }
+      }
+      #phone_num,#password{
+        border: 1px solid #CCCCCC;
+        width: 275px;
+        height: 34px;
+        padding-left: 5px;
+        border-radius: 3px;
+        outline: none;
+        margin-bottom: 23px;
+        font-size: 13px;
+      }
+      .password{
+        span{
+          color: #e74c3c;
+          font-size: 12px;
+          margin-left: 6px;
+        }
+        a{
+          float: right;
+          margin-right: 30px;
+          color: #767676;
+        }
+      }
+      .log_submit{
+        span,a{
+          width: 136px;
+          height: 35px;
+          display: inline-block;
+          border: 1px solid #e74c3c;
+          border-radius: 3px;
+          text-align: center;
+          line-height: 35px;
+        }
+        span{
+          background: #e74c3c;
+          color: white;
+        }
+        a{
+          text-decoration: none;
+          color: #e74c3c;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

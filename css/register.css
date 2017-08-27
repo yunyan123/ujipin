@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.contain {
+  width: 100%;
+  height: 610px; }
+  .contain .main {
+    width: 1150px;
+    height: 610px;
+    margin: 0 auto; }
+    .contain .main .down_app {
+      width: 430px;
+      height: 360px;
+      margin: 110px 80px;
+      float: left; }
+      .contain .main .down_app img {
+        width: 430px;
+        height: 360px; }
+    .contain .main .login_label {
+      width: 305px;
+      height: 360px;
+      float: left;
+      margin: 150px 80px;
+      font-size: 12px; }
+      .contain .main .login_label #phone_num {
+        width: 280px;
+        height: 30px;
+        border: 1px solid #CCCCCC;
+        border-radius: 4px; }
+      .contain .main .login_label span {
+        display: block;
+        width: 21px;
+        height: 30px;
+        float: right;
+        display: none;
+        background: url("../imgs/chick.png") no-repeat center center; }
+      .contain .main .login_label .image_verify_code {
+        width: 305px;
+        height: 30px;
+        margin-top: 40px; }
+        .contain .main .login_label .image_verify_code #image_verify_code {
+          width: 190px;
+          height: 30px;
+          border: 1px solid #CCCCCC;
+          border-radius: 4px; }
+      .contain .main .login_label .phone_verify_code {
+        width: 305px;
+        height: 30px;
+        margin-top: 40px; }
+        .contain .main .login_label .phone_verify_code #phone_verify_code {
+          width: 190px;
+          height: 30px;
+          border: 1px solid #CCCCCC;
+          border-radius: 4px;
+          float: left; }
+        .contain .main .login_label .phone_verify_code b {
+          display: block;
+          width: 80px;
+          height: 30px;
+          border: 1px solid #e74c3c;
+          float: left;
+          border-radius: 4px;
+          text-align: center;
+          line-height: 30px;
+          margin-right: 3px;
+          color: #e74c3c;
+          font-weight: 500;
+          margin-left: 3px; }
+      .contain .main .login_label .log_submit {
+        width: 280px;
+        height: 30px;
+        margin-top: 40px;
+        border-radius: 3px;
+        background: #e74c3c;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px; }
+        .contain .main .login_label .log_submit .register {
+          font-weight: 500; }
+      .contain .main .login_label .registration_protocol {
+        width: 275px;
+        height: 30px;
+        margin-top: 20px;
+        color: #CCCCCC;
+        text-align: center; }
+        .contain .main .login_label .registration_protocol a {
+          color: #CCCCCC; }
+      .contain .main .login_label .go_login {
+        font-weight: 500;
+        text-align: center; }
+        .contain .main .login_label .go_login a {
+          color: #e74c3c;
+          text-decoration: none; }
+          .contain .main .login_label .go_login a img {
+            margin-left: 16px;
+            border: 0; }
+
+/*# sourceMappingURL=register.css.map */
