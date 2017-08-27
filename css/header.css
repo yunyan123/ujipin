@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  width: 1263px;
+  height: 70px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.head .logo {
+  width: 1150px;
+  height: 70px;
+  margin: 0 auto;
+}
+.head .logo h1 {
+  width: 155px;
+  height: 70px;
+  float: left;
+}
+.head .logo h1 a {
+  display: block;
+  width: 155px;
+  height: 70px;
+}
+.head .logo h1 a img {
+  width: 155px;
+  height: 43px;
+  margin-top: 15px;
+}
+.head .logo .right {
+  width: 400px;
+  height: 70px;
+  float: right;
+}
+.head .logo .right #_form {
+  width: 210px;
+  height: 30px;
+  border: 1px solid;
+  float: left;
+  border: 1px solid #CCCCCC;
+  border-radius: 20px;
+  margin-top: 15px;
+  overflow: hidden;
+  background: #f8f8f8;
+}
+.head .logo .right #_form #search {
+  width: 160px;
+  height: 30px;
+  float: left;
+  margin-left: 15px;
+  background: #F8F8F8;
+  border: 0;
+  outline: none;
+}
+.head .logo .right #_form span {
+  display: block;
+  width: 20px;
+  height: 30px;
+  float: left;
+}
+.head .logo .right #_form span img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+.head .logo .right ul {
+  list-style: none;
+  width: 180px;
+  height: 30px;
+  float: left;
+  margin-top: 15px;
+}
+.head .logo .right ul li {
+  width: 50px;
+  height: 30px;
+  float: left;
+  padding: 0 5px;
+  position: relative;
+}
+.head .logo .right ul li a {
+  display: block;
+  width: 25px;
+  height: 19px;
+  margin: 5px 17px;
+}
+.head .logo .right ul li div {
+  width: 131px;
+  height: 131px;
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: -45px;
+}
+.head .logo .right ul li div img {
+  width: 131px;
+  height: 131px;
+  border: 1px solid #CCCCCC;
+}
+.head .logo .right ul li:hover div {
+  display: block;
+}
+.head .logo .right ul li:nth-child(1) a {
+  background: url(../imgs/saoyisao.gif) no-repeat right center;
+}
+.head .logo .right ul li:nth-child(2) a {
+  background: url(../imgs/cart.gif) no-repeat right center;
+}
+.head .logo .right ul li:nth-child(3) a {
+  background: url(../imgs/myself.gif) no-repeat right center;
+}
+
+.nav {
+  width: 1263px;
+  height: 50px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.nav .box {
+  width: 1150px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.nav .box ul {
+  width: 800px;
+  height: 50px;
+  list-style: none;
+  float: left;
+}
+.nav .box ul li {
+  width: 87px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}
+.nav .box ul li a {
+  text-decoration: none;
+}
+.nav .box ul li:hover {
+  border-bottom: 1px solid #e74c3c;
+}
+.nav .box ul li:hover a {
+  color: #e74c3c;
+}
+.nav .box span {
+  float: right;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header.css.map */
