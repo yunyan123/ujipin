@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+.container .goods_box {
+  width: 1150px;
+  height: 655px;
+  margin: 62px auto;
+}
+.container .goods_box .goods_focus {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+.container .goods_box .goods_focus .show {
+  width: 400px;
+  height: 400px;
+  background: plum;
+  margin-bottom: 20px;
+}
+.container .goods_box .goods_focus ul {
+  width: 150px;
+  height: 55px;
+  margin-left: 15px;
+  list-style: none;
+}
+.container .goods_box .goods_focus ul li {
+  border: 1px solid #CCCCCC;
+  margin-right: 5px;
+  float: left;
+}
+.container .goods_box .goods_focus ul li img {
+  width: 56px;
+  height: 56px;
+}
+.container .goods_box .good-right {
+  width: 680px;
+  height: 482px;
+  float: right;
+}
+.container .goods_box .good-right h4 {
+  font-size: 19px;
+}
+.container .goods_box .good-right .slogan {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.container .goods_box .good-right .good_brand {
+  font-size: 13px;
+  margin: 20px 0;
+}
+.container .goods_box .good-right .good_brand a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.container .goods_box .good-right .activty {
+  width: 100%;
+  height: auto;
+  background: #F8F8F8;
+  overflow: hidden;
+  margin-bottom: 13px;
+  padding-bottom: 15px;
+}
+.container .goods_box .good-right .activty .price_Ratio {
+  float: left;
+  padding-left: 15px;
+  width: 192px;
+  padding-top: 12px;
+  display: inline;
+}
+.container .goods_box .good-right .activty .price_Ratio .p_r {
+  line-height: 34px;
+  position: relative;
+}
+.container .goods_box .good-right .activty .price_Ratio .p_r span {
+  color: #4A4A4A;
+  font-size: 12px;
+}
+.container .goods_box .good-right .activty .price_Ratio .p_r b {
+  position: absolute;
+  left: 50px;
+  color: #e74c3c;
+  top: 2px;
+  font-size: 24px;
+}
+.container .goods_box .good-right .activty .price_Ratio p {
+  line-height: 20px;
+  font-size: 12px;
+}
+.container .goods_box .good-right .activty .price_Ratio p span {
+  margin-right: 17px;
+}
+.container .goods_box .good-right dl {
+  overflow: hidden;
+  padding-left: 14px;
+  line-height: 45px;
+  width: 635px;
+}
+.container .goods_box .good-right dl dt {
+  float: left;
+}
+.container .goods_box .good-right dl dd ul {
+  height: auto;
+  margin-top: 8px;
+}
+.container .goods_box .good-right dl dd ul li {
+  list-style: none;
+  cursor: pointer;
+  line-height: 25px;
+  overflow: hidden;
+  height: 25px;
+  border: 1px solid #828282;
+  border-radius: 3px;
+}
+.container .goods_box .good-right .color li {
+  width: 25px;
+  background: #ECECEC;
+  margin-right: 19px;
+}
+.container .goods_box .good-right .size li {
+  width: 35px;
+  text-align: center;
+  padding: 0 16px;
+  border: 1px solid #4A4A4A;
+}
+.container .goods_box .good-right .num .wrap_input {
+  margin-top: 13px;
+}
+.container .goods_box .good-right .num .wrap_input .min, .container .goods_box .good-right .num .wrap_input .add {
+  width: 20px;
+  display: block;
+  float: left;
+}
+.container .goods_box .good-right .num .wrap_input .text_box {
+  width: 40px;
+  display: block;
+  float: left;
+}
+.container .goods_box .good-right .g_prompt {
+  overflow: hidden;
+  padding-left: 14px;
+  line-height: 45px;
+  width: 100%;
+  font-size: 12px;
+}
+.container .goods_box .good-right .g_prompt span {
+  float: left;
+  height: auto;
+}
+.container .goods_box .good-right .g_prompt ul {
+  list-style: none;
+  width: 500px;
+  height: 45px;
+  margin-left: 60px;
+}
+.container .goods_box .good-right .g_prompt ul span {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  top: 20px;
+  background: #C0392D;
+  left: -10px;
+}
+.container .goods_box .good-right .g_prompt ul li {
+  width: 100px;
+  height: 45px;
+  float: left;
+  position: relative;
+}
+.container .goods_box .good-right .collection {
+  width: 380px;
+  height: 55px;
+}
+.container .goods_box .good-right .collection span {
+  display: block;
+  width: 150px;
+  height: 50px;
+  float: left;
+  border: 1px solid #E74C3C;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 50px;
+}
+.container .goods_box .good-right .collection .add_shopping_bar {
+  margin-left: 20px;
+  background: #E74C3C;
+  color: white;
+}
+.container .goods_box .good-right .collection .add_shopping_bar img {
+  width: 20px;
+  height: 24px;
+  margin: -5px 5px;
+}
+
+/*# sourceMappingURL=shop_details.css.map */

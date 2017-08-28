@@ -5,22 +5,147 @@
 
 .container {
   width: 100%;
-  height: 575px;
 }
-.container .contain {
+.container .banner {
   width: 1150px;
   height: 575px;
   margin: 0 auto;
 }
-.container .contain ul {
+.container .banner ul {
   width: 1150px;
   height: 575px;
   list-style: none;
   overflow: hidden;
 }
-.container .contain ul li a {
+.container .banner ul li a {
   width: 100%;
   display: block;
+}
+.container .seckill_time {
+  width: 1150px;
+  height: 340px;
+  background: palegoldenrod;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.container .seckill_time div {
+  width: 230px;
+  height: 340px;
+  float: left;
+}
+.container .seckill_time div h3 {
+  margin: 140px 0 0 33px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.container .seckill_time div h4 {
+  margin: 20px 0 0 33px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.container .seckill_time div p {
+  margin: 20px 0 0 33px;
+  height: 26px;
+  line-height: 24px;
+}
+.container .seckill_time div p span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #4A4A4A;
+  border-radius: 3px;
+  text-align: center;
+}
+.container .seckill_time div p em {
+  font-style: normal;
+}
+.container .seckill_time dl {
+  width: 305px;
+  height: 340px;
+  float: left;
+  background: palegreen;
+}
+.container .yx_activity {
+  width: 1150px;
+  height: 418px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.container .yx_activity a {
+  display: block;
+  height: 280px;
+  width: 565px;
+  float: left;
+  margin-bottom: 20px;
+}
+.container .yx_activity a.l {
+  margin-right: 20px;
+}
+.container .hot_goods {
+  width: 1150px;
+  height: 595px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.container .hot_goods h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 12px;
+  border-left: 3px solid #4a4a4a;
+}
+.container .hot_goods .goods_list {
+  width: 1150px;
+  height: 360px;
+  background: plum;
+}
+.container .hot_goods .goods_list dl {
+  width: 222px;
+  height: 340px;
+  float: left;
+}
+.container .hot_goods .goods_list dl dt a {
+  display: block;
+  width: 222px;
+  height: 222px;
+}
+.container .hot_goods .goods_list dl dt a img {
+  width: 222px;
+  height: 222px;
+}
+.container .hot_goods .goods_list dl dd {
+  width: 182px;
+  height: 84px;
+  margin: 20px;
+}
+.container .hot_goods .goods_list dl dd .goods_brand {
+  font-size: 12px;
+  height: 15px;
+  line-height: 15px;
+  margin-bottom: 4px;
+}
+.container .hot_goods .goods_list dl dd .goods_brand a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.container .hot_goods .goods_list dl dd .goods_introduce {
+  line-height: 16px;
+  font-size: 12px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+.container .hot_goods .goods_list dl dd .goods_introduce a {
+  text-decoration: none;
+  color: #828282;
+}
+.container .hot_goods .goods_list dl dd .goods_price .special_price {
+  color: #e74c3c;
+  margin-right: 15px;
+  margin-right: 15px;
+}
+.container .hot_goods .goods_list dl dd .goods_price .market_price {
+  color: #828282;
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=index.css.map */

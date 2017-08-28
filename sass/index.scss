@@ -1,8 +1,7 @@
 *{margin: 0;padding: 0;}
 .container{
   width: 100%;
-  height: 575px;
-  .contain{
+  .banner{
     width: 1150px;
     height: 575px;
     margin:0 auto;
@@ -15,6 +14,136 @@
         a{
           width: 100%;
           display: block;
+        }
+      }
+    }
+  }
+  .seckill_time{
+    width: 1150px;
+    height: 340px;
+    background: palegoldenrod;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+    div{
+      width: 230px;
+      height: 340px;
+      float: left;      
+      h3{
+        margin: 140px 0 0 33px;
+        font-size: 24px;
+        font-weight: 500;
+      }
+      h4{
+        margin: 20px 0 0 33px;
+        font-size: 13px;
+        font-weight: 500;
+      }  
+      p{
+        margin:20px 0 0 33px;
+        height: 26px;
+        line-height: 24px;
+        span{
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          border: 1px solid #4A4A4A;
+          border-radius: 3px;
+          text-align: center;
+        }
+        em{
+          font-style: normal;            
+        }
+      } 
+    }
+    dl{
+      width: 305px;
+      height: 340px;
+      float: left;
+      background: palegreen;
+    }
+  }
+  .yx_activity{
+    width: 1150px;
+    height: 418px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    a{
+      display: block;
+      height: 280px;
+      width: 565px;
+      float: left;
+      margin-bottom: 20px;
+    }
+    a.l{
+      margin-right: 20px;
+    }
+  }
+  .hot_goods{
+    width: 1150px;
+    height: 595px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    h3{
+      font-size: 20px;
+      font-weight: 500;
+      padding-left: 12px;
+      border-left: 3px solid #4a4a4a;
+    }
+    .goods_list{
+      width: 1150px;
+      height:360px;
+      background: plum;
+      dl{
+        width: 222px;
+        height: 340px;
+        float: left;
+        dt{
+          a{
+            display: block;
+            width: 222px;
+            height: 222px;
+            img{
+              width: 222px;
+              height: 222px;
+            }
+          }
+        }
+        dd{
+          width: 182px;
+          height: 84px;
+          margin: 20px;
+          .goods_brand{
+            font-size: 12px;
+            height: 15px;
+            line-height: 15px;
+            margin-bottom:4px;
+            a{
+              text-decoration: none;
+              color: #4a4a4a;              
+            }    
+          }
+          .goods_introduce{
+            line-height: 16px;
+            font-size: 12px;
+            height: 32px;
+            margin-bottom: 8px;  
+            a{
+              text-decoration: none;
+              color: #828282;
+            } 
+          }
+          .goods_price{
+              .special_price{
+                color: #e74c3c;
+                margin-right: 15px;  
+                margin-right: 15px; 
+              }
+            .market_price{
+              color: #828282;
+              text-decoration: line-through;  
+            }
+          }
         }
       }
     }

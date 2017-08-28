@@ -1,72 +1,90 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .foot {
-  width: 1263px;
+  width: 100%;
   height: 150px;
-  background: #f8f8f8; }
-  .foot .bottom {
-    width: 1150px;
-    height: 150px;
-    margin: 0 auto;
-    font-size: 12px; }
-    .foot .bottom ul {
-      height: 70px;
-      padding-top: 10px;
-      list-style: none; }
-      .foot .bottom ul li {
-        height: 20px;
-        float: left;
-        margin-top: 20px;
-        padding: 10px 60px 10px 30px;
-        line-height: 20px; }
-        .foot .bottom ul li a {
-          text-decoration: none;
-          color: black; }
-      .foot .bottom ul li:nth-child(1) {
-        background: url(../imgs/about.gif) no-repeat 11px center; }
-      .foot .bottom ul li:nth-child(2) {
-        background: url(../imgs/guide-book.gif) no-repeat 11px center; }
-      .foot .bottom ul li:nth-child(3) {
-        background: url(../imgs/xfz-book.gif) no-repeat 11px center; }
-      .foot .bottom ul li:nth-child(4) {
-        background: url(../imgs/problem.gif) no-repeat 11px center; }
-    .foot .bottom pre:nth-child(1) {
-      float: left;
-      display: block;
-      width: 1000px; }
-    .foot .bottom pre:nth-child(2) {
-      float: left;
-      display: block;
-      width: 800px; }
-    .foot .bottom dl {
-      float: right;
-      display: flex;
-      width: 140px;
-      height: 20px;
-      justify-content: space-around; }
-      .foot .bottom dl dt {
-        width: 60px; }
-      .foot .bottom dl dd {
-        width: 30px;
-        height: 20px;
-        background: url(../imgs/weixin-icon.gif) no-repeat center 1px;
-        margin-bottom: 2px;
-        position: relative;
-        cursor: pointer; }
-        .foot .bottom dl dd div {
-          width: 131px;
-          height: 131px;
-          display: none; }
-          .foot .bottom dl dd div img {
-            width: 131px;
-            height: 131px;
-            border: 1px solid #CCCCCC; }
-      .foot .bottom dl dd:hover div {
-        display: block;
-        position: absolute;
-        top: -135px;
-        right: -55px; }
+  background: #f8f8f8;
+}
+.foot .bottom {
+  width: 1150px;
+  height: 150px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.foot .bottom ul {
+  height: 70px;
+  padding-top: 10px;
+  list-style: none;
+}
+.foot .bottom ul li {
+  height: 20px;
+  float: left;
+  margin-top: 20px;
+  padding: 10px 60px 10px 30px;
+  line-height: 20px;
+}
+.foot .bottom ul li a {
+  text-decoration: none;
+  color: black;
+}
+.foot .bottom ul li:nth-child(1) {
+  background: url(../imgs/about.gif) no-repeat 11px center;
+}
+.foot .bottom ul li:nth-child(2) {
+  background: url(../imgs/guide-book.gif) no-repeat 11px center;
+}
+.foot .bottom ul li:nth-child(3) {
+  background: url(../imgs/xfz-book.gif) no-repeat 11px center;
+}
+.foot .bottom ul li:nth-child(4) {
+  background: url(../imgs/problem.gif) no-repeat 11px center;
+}
+.foot .bottom pre:nth-child(1) {
+  float: left;
+  display: block;
+  width: 1000px;
+}
+.foot .bottom pre:nth-child(2) {
+  float: left;
+  display: block;
+  width: 800px;
+}
+.foot .bottom dl {
+  float: right;
+  display: flex;
+  width: 140px;
+  height: 20px;
+  justify-content: space-around;
+}
+.foot .bottom dl dt {
+  width: 60px;
+}
+.foot .bottom dl dd {
+  width: 30px;
+  height: 20px;
+  background: url(../imgs/weixin-icon.gif) no-repeat center 1px;
+  margin-bottom: 2px;
+  position: relative;
+  cursor: pointer;
+}
+.foot .bottom dl dd div {
+  width: 131px;
+  height: 131px;
+  display: none;
+}
+.foot .bottom dl dd div img {
+  width: 131px;
+  height: 131px;
+  border: 1px solid #CCCCCC;
+}
+.foot .bottom dl dd:hover div {
+  display: block;
+  position: absolute;
+  top: -135px;
+  right: -55px;
+}
 
 /*# sourceMappingURL=footer.css.map */

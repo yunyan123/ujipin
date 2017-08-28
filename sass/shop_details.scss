@@ -1,0 +1,231 @@
+*{margin: 0;padding: 0;}
+.container{
+    width: 100%;
+    .goods_box{
+        width: 1150px;
+        height: 655px;
+        margin:62px auto;
+        .goods_focus{
+            width: 400px;
+            height: 400px;
+            float: left;
+            .show{
+                width: 400px;
+                height: 400px;
+                background: plum;
+                margin-bottom: 20px;
+            
+            
+            }
+            ul{
+                width: 150px;
+                height: 55px;
+                margin-left: 15px;
+                list-style: none;
+                li{
+                    border: 1px solid #CCCCCC;
+                    margin-right: 5px;
+                    float: left;
+                    img{
+                        width: 56px;
+                        height: 56px;
+                    }
+                }
+            }
+        }
+        .good-right{
+            width: 680px;
+            height: 482px;
+            float: right;
+            h4{
+                font-size: 19px;
+            }
+            .slogan{
+                margin-top: 20px;
+                font-size: 12px;
+            }
+            .good_brand{
+                font-size: 13px;
+                margin: 20px 0;
+                a{
+                    text-decoration: none;
+                    color: #4a4a4a;
+                }
+            }
+            .activty{
+                width: 100%;
+                height: auto;
+                background: #F8F8F8;
+                overflow: hidden;
+                margin-bottom: 13px;
+                padding-bottom: 15px;
+                .price_Ratio{
+                    float: left;
+                    padding-left: 15px;
+                    width: 192px;
+                    padding-top: 12px;
+                    display: inline;
+                    .p_r{
+                        line-height: 34px;
+                        position: relative;
+                        span{
+                            color: #4A4A4A;
+                            font-size: 12px;
+                        }
+                        b{
+                            position: absolute;
+                            left: 50px;
+                            color: #e74c3c;
+                            top: 2px;
+                            font-size: 24px;
+                        }
+                    }
+                    p{
+                        line-height: 20px;
+                        font-size: 12px;
+                        span{
+                            margin-right: 17px;
+                        }
+                    }
+                }
+            }
+            dl{
+                overflow: hidden;
+                padding-left: 14px;
+                line-height: 45px;
+                width: 635px;
+                dt{
+                    float: left;
+                }
+                dd{
+                    ul{
+                        height: auto;
+                         margin-top: 8px;
+                        li{
+                            list-style: none;
+                            cursor: pointer;
+                            line-height: 25px;
+                            overflow: hidden;
+                            height: 25px;
+                            border: 1px solid #828282;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+                
+            }
+            .color{
+                li{
+                    width: 25px;
+                    background: #ECECEC;
+                    margin-right: 19px;
+                }
+            }
+            .size{
+                li{
+                    width: 35px;
+                    text-align: center;
+                    padding: 0 16px;
+                    border: 1px solid #4A4A4A;
+                }
+            }
+            .num{
+                .wrap_input{
+                    margin-top: 13px;
+                    .min,.add{
+                        width: 20px;
+                        display: block;
+                        float: left;
+                    }
+                    .text_box{
+                        width: 40px;
+                        display: block;
+                        float: left;
+                    }                  
+                }
+            }
+            .g_prompt{
+                overflow: hidden;
+                padding-left: 14px;
+                line-height: 45px;
+                width: 100%;
+                font-size: 12px;
+                span{
+                    float: left;
+                    height: auto;
+                }
+                ul{
+                    list-style: none;
+                    width: 500px;
+                    height: 45px;
+                    margin-left: 60px;
+                    span{
+                        position: absolute;
+                        width: 4px;
+                        height: 4px;
+                        border-radius: 2px;
+                        top: 20px;
+                        background: #C0392D;
+                        left: -10px;
+                    }
+                    li{
+                        width: 100px;
+                        height: 45px;
+                        float: left;
+                        position: relative;
+                    }
+                }
+            }
+            .collection{
+                width: 380px;
+                height: 55px;
+                span{
+                    display: block;
+                    width: 150px;
+                    height:50px ;
+                    float: left;
+                    border: 1px solid #E74C3C;
+                    border-radius: 3px;
+                    text-align: center;
+                    line-height: 50px;
+                }
+                .col{
+                    
+                }
+                .add_shopping_bar{
+                    margin-left: 20px;
+                    background: #E74C3C;
+                    color: white;
+                    img{
+                        width: 20px;
+                        height: 24px;
+                        margin: -5px 5px ;
+                    }
+                }
+            }
+            
+            
+            
+            
+        }
+    }
+    
+}
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
