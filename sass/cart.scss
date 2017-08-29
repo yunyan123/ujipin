@@ -62,24 +62,280 @@
     }
     .shop_bag_main{
         width: 1150px;
-        height: 185px;
-        background: palegoldenrod;
+        height: 170px;
         margin: 0 auto;
+        margin-bottom: 60px;
         ul{
             width: 100%;
+            height: 125px;
             list-style: none;
             li{
-                width: 100%;
-                height: 135px;
-                background: pink;
-            };
+                position: relative;
+                float: left;
+            }
+            .product_select{
+                width: 16px;
+                height: 16px;
+                margin-top: 32px;
+                margin-right: 52px;
+                input{
+                    opacity: 0;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    cursor: pointer;
+                    left: 0px;
+                    top: 0px;
+                }
+                .on{
+                    width: 16px;
+                    height: 16px;
+                    display: block;
+                    margin-left: 10px;
+                    background: url(../imgs/checkbox2.png) no-repeat center center;
+                    background-size:100% 100% ;
+                }
+            }
+            .product_message{
+                width: 466px;
+                float: left;
+                dl{
+                    dt{
+                        width: 80px;
+                        height: 82px;
+                        float: left;
+                        margin-right: 64px;
+                        img{
+                            width: 80px;
+                            height: 82px;
+                        }
+                    }
+                    dd{
+                        width: 236px;
+                        height: 74px;
+                        float: left;
+                        h4{
+                            margin-bottom: 7px;
+                            font-weight: normal;
+                            line-height: 19px;
+                            font-size: 14px;
+                            max-height: 38px;
+                            overflow: hidden;
+                            color: #4A4A4A;
+                        }
+                        p{
+                            color: #828282;
+                            font-size: 12px;
+                            height: 20px;
+                            overflow: hidden;
+                            span{
+                                margin-right: 16px;
+                            }
+                        }
+                        h3{
+                            font-size: 12px;
+                            color: #828282;
+                            font-weight: normal;
+                            padding-left: 19px;
+                            position: relative;
+                            line-height: 16px;
+                            margin-top: 8px;
+                            img{
+                                width: 14px;
+                                height: 14px;
+                            }
+
+                        }
+                    }
+                }
+            }
+            .product_price{
+                margin-top: 31px;
+                color: #4A4A4A;
+                width: 150px;
+                font-size: 12px;
+            }
+            .product_amount{
+                margin-top: 31px;
+                width: 88px;
+                margin-right: 124px; 
+                div{
+                    width: 88px;
+                    height: 19px;
+                    .g_quantity{
+                        width: 40px;
+                        outline: none;
+                        float: left;
+                        text-align: center;
+                        border: none;
+                        line-height: 19px;
+                    }
+                    span{
+                        float: left;
+                        font-size: 14px;
+                        border: 1px solid #E6E6E6;
+                        background: white;
+                        width: 17px;
+                        height: 17px;
+                        text-align: center;
+                        line-height: 17px;
+                        border-radius: 3px;
+                        cursor: pointer;
+                    }
+                }               
+            }
+            .product_subtotal{
+                margin-top: 20px;
+                height: 40px;
+                line-height: 40px;
+                width: 139px;
+                font-size: 12px;
+                border-right: 1px dashed #BEBDBB;
+            }
+            .product_chickout{
+                padding-left: 39px;
+                padding-top: 32px;
+                .del{
+                    display: block;
+                    width: 18px;
+                    height: 19px;
+                    background-image:url(../imgs/delp.png); 
+                    background-size: 18px 19px;
+                    cursor: pointer;
+                }
+            }
+            
+            
+            
         }
-        .bag_chickout{
+        .product_del{
             width: 100%;
-            height: 50px;
+            height: 45px;
             background: #f8f8f8;
+            border-top: 1px solid #ececec;
+           
+            p{
+                width: 80px;
+                height: 19px;
+                font-size: 12px;
+                float: left;
+                input{
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    opacity: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                .on{
+                    width: 16px;
+                    height: 16px;
+                    background: url(../imgs/checkbox2.png) no-repeat center center;
+                    background-size: 100% 100%;
+                    float: left;
+                    margin: 10px;
+                }  
+                label{
+                    float: left;
+                    margin: 10px 0;
+                    color: #828282;
+                }              
+            }
+            dl{
+                width: 365px;
+                height: 45px;
+                float: right;
+                dt{
+                    width: 180px;
+                    height: 45px;
+                    float: left;
+                    text-align: center;
+                    line-height: 45px;
+                    p{
+                        width: 180px;
+                        height: 45px;
+                        font-size: 14px;
+                        #totle{
+                            font-size: 16px;
+                            color: #E74C3C;
+                        }
+                    }
+                }
+                dd{
+                    width: 180px;
+                    height: 45px;
+                    float: right;
+                    text-align: center;
+                    line-height: 45px;
+                    background: #e74c3c;
+                    font-size: 20px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }           
         }
     }
+    .recommend_good{
+        width: 1150px;
+        height: 360px;
+        background: palegoldenrod;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        h5{
+            height: 20px;
+            margin-bottom: 30px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .goods_list{
+            width: 1150px;
+            height: 310px;
+            dl{
+                width: 222px;
+                margin-right: 10px;
+                height: 310px;
+                float:left ;
+                text-align: center;
+                a{
+                   display:block;
+                   width: 222px;
+                   height: 310px;                 
+                   text-decoration: none;
+                    dt{
+                        img{
+                            height: 222px;
+                            width: 222px;
+                        }
+                    }
+                    dd{
+                        width: 200px;
+                        height: 70px;
+                        margin: 10px 10px 0;
+                        .goods_introduce{
+                            width: 200px;
+                            color: #4a4a4a;
+                        }
+                        .goods_price{
+                            font-size: 12px;
+                            .special_price{
+                                color: #E74C3C;
+                            }
+                            .market_price{
+                                color: #828282;
+                                text-decoration: line-through;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    
+    
 }
 
 

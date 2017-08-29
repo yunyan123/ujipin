@@ -1,19 +1,26 @@
 *{margin: 0;padding: 0;}
 .container{
   width: 100%;
-  .banner{
-    width: 1150px;
-    height: 575px;
-    margin:0 auto;
-    ul{
-      width: 1150px;
+  .carousel slide{
+  width: 1150px;
+  height: 575px;
+  margin:0 auto;
+  overflow: hidden;
+  position: relative;
+  .carousel-inner{
+    
       height: 575px;
       list-style: none;
-      overflow: hidden;
-      li{
-        a{
-          width: 100%;
-          display: block;
+      
+      position: absolute;
+      div{
+        width: 1150px;
+        height: 575px;
+        float: left;
+        overflow: hidden;
+        img{
+            width: 1150px;
+            height: 575px;
         }
       }
     }

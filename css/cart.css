@@ -64,23 +64,266 @@
 }
 .container .shop_bag_main {
   width: 1150px;
-  height: 185px;
-  background: palegoldenrod;
+  height: 170px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 .container .shop_bag_main ul {
   width: 100%;
+  height: 125px;
   list-style: none;
 }
 .container .shop_bag_main ul li {
-  width: 100%;
-  height: 135px;
-  background: pink;
+  position: relative;
+  float: left;
 }
-.container .shop_bag_main .bag_chickout {
+.container .shop_bag_main ul .product_select {
+  width: 16px;
+  height: 16px;
+  margin-top: 32px;
+  margin-right: 52px;
+}
+.container .shop_bag_main ul .product_select input {
+  opacity: 0;
   width: 100%;
-  height: 50px;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+}
+.container .shop_bag_main ul .product_select .on {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-left: 10px;
+  background: url(../imgs/checkbox2.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.container .shop_bag_main ul .product_message {
+  width: 466px;
+  float: left;
+}
+.container .shop_bag_main ul .product_message dl dt {
+  width: 80px;
+  height: 82px;
+  float: left;
+  margin-right: 64px;
+}
+.container .shop_bag_main ul .product_message dl dt img {
+  width: 80px;
+  height: 82px;
+}
+.container .shop_bag_main ul .product_message dl dd {
+  width: 236px;
+  height: 74px;
+  float: left;
+}
+.container .shop_bag_main ul .product_message dl dd h4 {
+  margin-bottom: 7px;
+  font-weight: normal;
+  line-height: 19px;
+  font-size: 14px;
+  max-height: 38px;
+  overflow: hidden;
+  color: #4A4A4A;
+}
+.container .shop_bag_main ul .product_message dl dd p {
+  color: #828282;
+  font-size: 12px;
+  height: 20px;
+  overflow: hidden;
+}
+.container .shop_bag_main ul .product_message dl dd p span {
+  margin-right: 16px;
+}
+.container .shop_bag_main ul .product_message dl dd h3 {
+  font-size: 12px;
+  color: #828282;
+  font-weight: normal;
+  padding-left: 19px;
+  position: relative;
+  line-height: 16px;
+  margin-top: 8px;
+}
+.container .shop_bag_main ul .product_message dl dd h3 img {
+  width: 14px;
+  height: 14px;
+}
+.container .shop_bag_main ul .product_price {
+  margin-top: 31px;
+  color: #4A4A4A;
+  width: 150px;
+  font-size: 12px;
+}
+.container .shop_bag_main ul .product_amount {
+  margin-top: 31px;
+  width: 88px;
+  margin-right: 124px;
+}
+.container .shop_bag_main ul .product_amount div {
+  width: 88px;
+  height: 19px;
+}
+.container .shop_bag_main ul .product_amount div .g_quantity {
+  width: 40px;
+  outline: none;
+  float: left;
+  text-align: center;
+  border: none;
+  line-height: 19px;
+}
+.container .shop_bag_main ul .product_amount div span {
+  float: left;
+  font-size: 14px;
+  border: 1px solid #E6E6E6;
+  background: white;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  line-height: 17px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container .shop_bag_main ul .product_subtotal {
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  width: 139px;
+  font-size: 12px;
+  border-right: 1px dashed #BEBDBB;
+}
+.container .shop_bag_main ul .product_chickout {
+  padding-left: 39px;
+  padding-top: 32px;
+}
+.container .shop_bag_main ul .product_chickout .del {
+  display: block;
+  width: 18px;
+  height: 19px;
+  background-image: url(../imgs/delp.png);
+  background-size: 18px 19px;
+  cursor: pointer;
+}
+.container .shop_bag_main .product_del {
+  width: 100%;
+  height: 45px;
   background: #f8f8f8;
+  border-top: 1px solid #ececec;
+}
+.container .shop_bag_main .product_del p {
+  width: 80px;
+  height: 19px;
+  font-size: 12px;
+  float: left;
+}
+.container .shop_bag_main .product_del p input {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .shop_bag_main .product_del p .on {
+  width: 16px;
+  height: 16px;
+  background: url(../imgs/checkbox2.png) no-repeat center center;
+  background-size: 100% 100%;
+  float: left;
+  margin: 10px;
+}
+.container .shop_bag_main .product_del p label {
+  float: left;
+  margin: 10px 0;
+  color: #828282;
+}
+.container .shop_bag_main .product_del dl {
+  width: 365px;
+  height: 45px;
+  float: right;
+}
+.container .shop_bag_main .product_del dl dt {
+  width: 180px;
+  height: 45px;
+  float: left;
+  text-align: center;
+  line-height: 45px;
+}
+.container .shop_bag_main .product_del dl dt p {
+  width: 180px;
+  height: 45px;
+  font-size: 14px;
+}
+.container .shop_bag_main .product_del dl dt p #totle {
+  font-size: 16px;
+  color: #E74C3C;
+}
+.container .shop_bag_main .product_del dl dd {
+  width: 180px;
+  height: 45px;
+  float: right;
+  text-align: center;
+  line-height: 45px;
+  background: #e74c3c;
+  font-size: 20px;
+}
+.container .shop_bag_main .product_del dl dd a {
+  color: white;
+  text-decoration: none;
+}
+.container .recommend_good {
+  width: 1150px;
+  height: 360px;
+  background: palegoldenrod;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.container .recommend_good h5 {
+  height: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.container .recommend_good .goods_list {
+  width: 1150px;
+  height: 310px;
+}
+.container .recommend_good .goods_list dl {
+  width: 222px;
+  margin-right: 10px;
+  height: 310px;
+  float: left;
+  text-align: center;
+}
+.container .recommend_good .goods_list dl a {
+  display: block;
+  width: 222px;
+  height: 310px;
+  text-decoration: none;
+}
+.container .recommend_good .goods_list dl a dt img {
+  height: 222px;
+  width: 222px;
+}
+.container .recommend_good .goods_list dl a dd {
+  width: 200px;
+  height: 70px;
+  margin: 10px 10px 0;
+}
+.container .recommend_good .goods_list dl a dd .goods_introduce {
+  width: 200px;
+  color: #4a4a4a;
+}
+.container .recommend_good .goods_list dl a dd .goods_price {
+  font-size: 12px;
+}
+.container .recommend_good .goods_list dl a dd .goods_price .special_price {
+  color: #E74C3C;
+}
+.container .recommend_good .goods_list dl a dd .goods_price .market_price {
+  color: #828282;
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=cart.css.map */

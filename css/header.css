@@ -17,6 +17,7 @@
   width: 155px;
   height: 70px;
   float: left;
+  margin: 0;
 }
 .head .logo h1 a {
   display: block;

@@ -6,20 +6,27 @@
 .container {
   width: 100%;
 }
-.container .banner {
+.container .carousel slide {
   width: 1150px;
   height: 575px;
   margin: 0 auto;
+  overflow: hidden;
+  position: relative;
 }
-.container .banner ul {
-  width: 1150px;
+.container .carousel slide .carousel-inner {
   height: 575px;
   list-style: none;
+  position: absolute;
+}
+.container .carousel slide .carousel-inner div {
+  width: 1150px;
+  height: 575px;
+  float: left;
   overflow: hidden;
 }
-.container .banner ul li a {
-  width: 100%;
-  display: block;
+.container .carousel slide .carousel-inner div img {
+  width: 1150px;
+  height: 575px;
 }
 .container .seckill_time {
   width: 1150px;

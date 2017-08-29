@@ -1,8 +1,18 @@
 require(["config"], function(){
-	require(["jquery", "template", "load"], function($, template){
-		$.getJSON("/mock/list.json", function(data){
-			var html = template("prod_detail", {list:data});
-			$(html).appendTo(".detail");
-		});
+	require(["jquery","load" ],function($){
+	require(["bootstrap"],function(){
+		console.log("ssss")
 	});
+	});
+		
 })
+
+
+////实现动态加载商品品牌到页面
+//	require(["jquery", "template", "load"], function($, template) {
+//		require(["bootstrap"],function(boot){
+//			
+//		});
+//	
+//
+//});
