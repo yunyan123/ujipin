@@ -139,6 +139,9 @@
   text-decoration: none;
   color: black;
 }
+.nav .box ul li ol {
+  display: none;
+}
 .nav .box ul li:hover {
   border-bottom: 1px solid #e74c3c;
 }

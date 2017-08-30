@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/header.css"/>
     <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+	<script src="../lib/requirejs/require.js" data-main="/js/register"></script>
+    
 </head>
 <body>
 <div class="header"></div>
@@ -11,13 +15,13 @@
     <div class="main">
         <div class="down_app"><img src="../imgs/down_app.gif" alt=""></div>
         <div class="login_label">
-            <div>
+            <div class="phone">
                 <input type="text" id="phone_num" name="phone_num" placeholder="手机号码">
                 <span></span>
             </div>
             <div class="image_verify_code">
                 <input type="text" id="image_verify_code">
-                <b>生成随机码</b>
+                <b></b>
                 <span></span>
             </div>
             <div class="phone_verify_code">
@@ -28,7 +32,7 @@
 
             <p class="log_submit"><b id="register" class="register">手机号快捷登录</b></p>
             <p class="registration_protocol">登录即表示您同意<a href="" id="registration_protocol">《优集品用户注册协议》</a></p>
-            <h3 class="go_login"><a href="/user/login?callback=%252Fuser" id="hrelogin">账号或第三方登录<img src="../imgs/page1.gif" alt=""></a></h3>
+            <h3 class="go_login"><a href="login.html" id="hrelogin">账号或第三方登录<img src="../imgs/page1.gif" alt=""></a></h3>
         </div>
     </div>
 </div>

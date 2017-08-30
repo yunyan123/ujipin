@@ -21,7 +21,7 @@
       width: 305px;
       height: 360px;
       float: left;
-      margin: 150px 80px;
+      margin: 150px 80px 0;
       font-size: 12px; }
       .contain .main .login_label #phone_num {
         width: 280px;
@@ -76,7 +76,8 @@
         color: white;
         text-align: center;
         line-height: 30px;
-        font-size: 14px; }
+        font-size: 14px;
+        cursor: pointer; }
         .contain .main .login_label .log_submit .register {
           font-weight: 500; }
       .contain .main .login_label .registration_protocol {

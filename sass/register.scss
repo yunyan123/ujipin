@@ -20,7 +20,7 @@
       width: 305px;
       height: 360px;
       float: left;
-      margin:150px 80px;
+      margin:150px 80px 0;
       font-size: 12px;
       #phone_num{
         width: 280px;
@@ -83,6 +83,7 @@
         text-align: center;
         line-height: 30px;
         font-size: 14px;
+        cursor: pointer;
         .register{
           font-weight: 500;
         }

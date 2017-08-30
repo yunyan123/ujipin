@@ -135,6 +135,9 @@
                     text-decoration: none;
                     color:black;
                 }
+                ol{
+                    display: none;
+                }
             }
             li:hover{
                 border-bottom: 1px solid #e74c3c;

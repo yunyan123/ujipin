@@ -1,79 +1,66 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .contain {
   width: 100%;
-  height: 610px;
-}
-.contain .main {
-  width: 1150px;
-  height: 610px;
-  margin: 0 auto;
-}
-.contain .main .down_app {
-  width: 430px;
-  height: 360px;
-  margin: 110px 80px;
-  float: left;
-}
-.contain .main .down_app img {
-  width: 430px;
-  height: 360px;
-}
-.contain .main .login_labe {
-  width: 305px;
-  height: 300px;
-  float: left;
-  line-height: 20px;
-  margin: 190px 80px;
-  font-size: 12px;
-}
-.contain .main .login_labe .phone_num {
-  width: 280px;
-  height: 20px;
-}
-.contain .main .login_labe .phone_num span {
-  color: #e74c3c;
-  display: none;
-}
-.contain .main .login_labe #phone_num, .contain .main .login_labe #password {
-  border: 1px solid #CCCCCC;
-  width: 275px;
-  height: 34px;
-  padding-left: 5px;
-  border-radius: 3px;
-  outline: none;
-  margin-bottom: 23px;
-  font-size: 13px;
-}
-.contain .main .login_labe .password span {
-  color: #e74c3c;
-  font-size: 12px;
-  margin-left: 6px;
-}
-.contain .main .login_labe .password a {
-  float: right;
-  margin-right: 30px;
-  color: #767676;
-}
-.contain .main .login_labe .log_submit span, .contain .main .login_labe .log_submit a {
-  width: 136px;
-  height: 35px;
-  display: inline-block;
-  border: 1px solid #e74c3c;
-  border-radius: 3px;
-  text-align: center;
-  line-height: 35px;
-}
-.contain .main .login_labe .log_submit span {
-  background: #e74c3c;
-  color: white;
-}
-.contain .main .login_labe .log_submit a {
-  text-decoration: none;
-  color: #e74c3c;
-}
+  height: 610px; }
+  .contain .main {
+    width: 1150px;
+    height: 610px;
+    margin: 0 auto; }
+    .contain .main .down_app {
+      width: 430px;
+      height: 360px;
+      margin: 110px 80px;
+      float: left; }
+      .contain .main .down_app img {
+        width: 430px;
+        height: 360px; }
+    .contain .main .login_labe {
+      width: 305px;
+      height: 300px;
+      float: left;
+      line-height: 20px;
+      margin: 160px 80px 0;
+      font-size: 12px; }
+      .contain .main .login_labe .phone_num {
+        width: 280px;
+        height: 20px; }
+        .contain .main .login_labe .phone_num span {
+          color: #e74c3c;
+          display: none; }
+      .contain .main .login_labe #phone_num, .contain .main .login_labe #password {
+        border: 1px solid #CCCCCC;
+        width: 275px;
+        height: 34px;
+        padding-left: 5px;
+        border-radius: 3px;
+        outline: none;
+        margin-bottom: 23px;
+        font-size: 13px; }
+      .contain .main .login_labe .password span {
+        color: #e74c3c;
+        font-size: 12px;
+        margin-left: 6px;
+        display: none; }
+      .contain .main .login_labe .password a {
+        float: right;
+        margin-right: 30px;
+        color: #767676; }
+      .contain .main .login_labe .log_submit span, .contain .main .login_labe .log_submit a {
+        width: 136px;
+        height: 35px;
+        display: inline-block;
+        border: 1px solid #e74c3c;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 35px; }
+      .contain .main .login_labe .log_submit span {
+        background: #e74c3c;
+        color: white; }
+      .contain .main .login_labe .log_submit a {
+        text-decoration: none;
+        color: #e74c3c; }
 
 /*# sourceMappingURL=login.css.map */

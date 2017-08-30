@@ -6,57 +6,56 @@
 .container {
   width: 100%;
 }
-.container .carousel slide {
+.container #carousel-example-generic {
   width: 1150px;
   height: 575px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
-.container .carousel slide .carousel-inner {
+.container #carousel-example-generic .carousel-inner {
   height: 575px;
   list-style: none;
   position: absolute;
 }
-.container .carousel slide .carousel-inner div {
+.container #carousel-example-generic .carousel-inner div {
   width: 1150px;
   height: 575px;
   float: left;
   overflow: hidden;
 }
-.container .carousel slide .carousel-inner div img {
+.container #carousel-example-generic .carousel-inner div img {
   width: 1150px;
   height: 575px;
 }
-.container .seckill_time {
+.container #seckill_time {
   width: 1150px;
   height: 340px;
-  background: palegoldenrod;
   margin: 0 auto;
   margin-bottom: 40px;
   overflow: hidden;
 }
-.container .seckill_time div {
+.container #seckill_time div {
   width: 230px;
   height: 340px;
   float: left;
 }
-.container .seckill_time div h3 {
+.container #seckill_time div h3 {
   margin: 140px 0 0 33px;
   font-size: 24px;
   font-weight: 500;
 }
-.container .seckill_time div h4 {
+.container #seckill_time div h4 {
   margin: 20px 0 0 33px;
   font-size: 13px;
   font-weight: 500;
 }
-.container .seckill_time div p {
+.container #seckill_time div p {
   margin: 20px 0 0 33px;
   height: 26px;
   line-height: 24px;
 }
-.container .seckill_time div p span {
+.container #seckill_time div p span {
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -64,14 +63,35 @@
   border-radius: 3px;
   text-align: center;
 }
-.container .seckill_time div p em {
+.container #seckill_time div p em {
   font-style: normal;
 }
-.container .seckill_time dl {
+.container #seckill_time dl {
   width: 305px;
   height: 340px;
   float: left;
-  background: palegreen;
+}
+.container #seckill_time dt img {
+  width: 222px;
+  height: 222px;
+  margin: 23px 45px 10px;
+}
+.container #seckill_time dd {
+  font-size: 12px;
+  text-align: center;
+}
+.container #seckill_time dd h2 {
+  height: 15px;
+  font-size: 12px;
+}
+.container #seckill_time dd p span {
+  color: #E74C3C;
+}
+.container #seckill_time dd p em {
+  color: #828282;
+  font-style: normal;
+  margin-left: 15px;
+  text-decoration: line-through;
 }
 .container .yx_activity {
   width: 1150px;
@@ -104,10 +124,9 @@
 .container .hot_goods .goods_list {
   width: 1150px;
   height: 360px;
-  background: plum;
 }
 .container .hot_goods .goods_list dl {
-  width: 222px;
+  width: 227px;
   height: 340px;
   float: left;
 }

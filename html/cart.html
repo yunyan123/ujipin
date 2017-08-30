@@ -3,7 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+    	<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+    	<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<script src="../lib/requirejs/require.js" data-main="/js/cart"></script>
 	</head>
 	<body>
 		<div class="header"></div>
@@ -68,7 +71,7 @@
 			<div class="recommend_good">
 				<h5>热门推荐</h5>
 				<div class="goods_list">
-					<dl>
+					<!--<dl>
 						<a href="#">
 							<dt><img src="../imgs/bed.jpg"></dt>
 							<dd>
@@ -79,11 +82,28 @@
 								</p>
 							</dd>
 						</a>
-					</dl>
+					</dl>-->
 				</div>
 			</div>
 			
-			
+			<script type="text/html" id="goods_introduce">
+				<% for(var i=0;i<cart_hot_list.length;i++){
+					var prod=cart_hot_list[i];
+				%>
+				<dl>
+					<a href="shop_details.html">
+						<dt><img src="<%=prod.imgSrc%>"></dt>
+						<dd>
+							<p><%=prod.detail %></p>
+							<p>
+								<span> <%=prod.special_price %> </span>
+								<span> <%=prod.market_price %> </span>
+							</p>
+						</dd>
+					</a>
+				</dl>
+				<% } %>
+			</script>     
 			
 			
 			

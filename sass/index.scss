@@ -1,17 +1,16 @@
 *{margin: 0;padding: 0;}
 .container{
   width: 100%;
-  .carousel slide{
-  width: 1150px;
-  height: 575px;
-  margin:0 auto;
-  overflow: hidden;
-  position: relative;
-  .carousel-inner{
+  #carousel-example-generic {
+    width: 1150px;
+    height: 575px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+    .carousel-inner{
     
       height: 575px;
       list-style: none;
-      
       position: absolute;
       div{
         width: 1150px;
@@ -25,10 +24,9 @@
       }
     }
   }
-  .seckill_time{
+  #seckill_time{
     width: 1150px;
     height: 340px;
-    background: palegoldenrod;
     margin: 0 auto;
     margin-bottom: 40px;
     overflow: hidden;
@@ -67,7 +65,33 @@
       width: 305px;
       height: 340px;
       float: left;
-      background: palegreen;
+    }
+    dt{
+      img{
+        width: 222px;
+        height: 222px;
+        margin: 23px 45px 10px;
+      }
+    }
+    dd{
+        font-size: 12px;
+        text-align: center;
+      h2{
+        height: 15px;
+        font-size: 12px;
+          
+      }
+      p{
+        span{
+          color:#E74C3C ;
+        }
+        em{
+            color: #828282;
+          font-style: normal;
+          margin-left: 15px;
+          text-decoration: line-through;
+        }
+      }
     }
   }
   .yx_activity{
@@ -100,9 +124,8 @@
     .goods_list{
       width: 1150px;
       height:360px;
-      background: plum;
       dl{
-        width: 222px;
+        width: 227px;
         height: 340px;
         float: left;
         dt{

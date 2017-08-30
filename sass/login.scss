@@ -21,7 +21,7 @@
       height: 300px;
       float: left;
       line-height: 20px;
-      margin: 190px 80px;
+      margin: 160px 80px 0;
       font-size: 12px;
       .phone_num{
         width: 280px;
@@ -46,6 +46,7 @@
           color: #e74c3c;
           font-size: 12px;
           margin-left: 6px;
+          display: none;
         }
         a{
           float: right;
