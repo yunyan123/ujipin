@@ -1,4 +1,6 @@
-[{"imgSrc":"imgs/Ball Mason jar.jpg","detail":"Ball Mason Jar 玻璃密封罐",  "special_price":"￥35.00","market_price":"￥59.00"},
-	{"imgSrc":"imgs/ucc_picture.jpg","detail":"UCC 滴漏式挂耳手冲咖啡 3种口味可选",  "special_price":"￥68.00","market_price":"￥116.00"},
-	{"imgSrc":"imgs/cafei.jpg","detail":"库博双层系列卡布奇诺杯300ml",  "special_price":"￥55.00","market_price":"￥58.00"}
+{
+"list":[{"id":1,"imgSrc":"imgs/Ball Mason jar.jpg","detail":"Ball Mason Jar 玻璃密封罐",  "special_price":"￥35.00","market_price":"￥59.00","name":"玻璃"},
+	{"id":2,"imgSrc":"imgs/ucc_picture.jpg","detail":"UCC 滴漏式挂耳手冲咖啡 3种口味可选",  "special_price":"￥68.00","market_price":"￥116.00","name":"咖啡"},
+	{"id":3,"imgSrc":"imgs/cafei.jpg","detail":"库博双层系列卡布奇诺杯300ml",  "special_price":"￥55.00","market_price":"￥58.00","name":"卡布奇诺"}
 ]
+}

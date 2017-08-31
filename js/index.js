@@ -37,7 +37,7 @@ require(["config"], function(){
 	//动态加载商品品牌到秒杀页面
 	require(["jquery", "template", "load"], function($, template){
 		$.getJSON("/mock/list.json", function(data){			
-			var html = template("prod_detail",{list:data});
+			var html = template("prod_detail",data);
 			$(html).appendTo("#seckill_time");
 		});
 

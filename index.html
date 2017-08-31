@@ -64,8 +64,9 @@
 				<dl>
 					<dt><img src="<%=prod.imgSrc%>"></dt>
 					<dd>
-						<h2><%=prod.detail %></h2>
+						<h2><%=prod.name %><%=prod.detail %></h2>
 						<p>
+							<span class="pro_id" style="display: none;"><%=prod.id%></span>
 							<span> <%=prod.special_price %> </span>
 							<em> <%=prod.market_price %> </em>
 						</p>

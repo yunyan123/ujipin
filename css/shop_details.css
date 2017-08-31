@@ -19,8 +19,43 @@
 .container .goods_box .goods_focus .show {
   width: 400px;
   height: 400px;
-  background: plum;
   margin-bottom: 20px;
+  position: relative;
+}
+.container .goods_box .goods_focus .show .middle {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  overflow: hidden;
+  background: palegoldenrod;
+}
+.container .goods_box .goods_focus .show .middle img {
+  width: 400px;
+  height: 400px;
+}
+.container .goods_box .goods_focus .show .middle .len {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #CCCCCC;
+  opacity: 0.5;
+  display: none;
+  top: 0;
+  left: 0;
+}
+.container .goods_box .goods_focus .show .big {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 400px;
+  overflow: hidden;
+  display: none;
+  z-index: 999;
+}
+.container .goods_box .goods_focus .show .big img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
 }
 .container .goods_box .goods_focus ul {
   width: 150px;
@@ -139,6 +174,7 @@
   width: 40px;
   display: block;
   float: left;
+  text-align: center;
 }
 .container .goods_box .good-right .g_prompt {
   overflow: hidden;
@@ -190,6 +226,7 @@
   margin-left: 20px;
   background: #E74C3C;
   color: white;
+  cursor: pointer;
 }
 .container .goods_box .good-right .collection .add_shopping_bar img {
   width: 20px;

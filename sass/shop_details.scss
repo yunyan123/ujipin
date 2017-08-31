@@ -12,10 +12,46 @@
             .show{
                 width: 400px;
                 height: 400px;
-                background: plum;
                 margin-bottom: 20px;
+                position:relative;
+                .middle{
+                    width: 400px;
+                    height: 400px;
+                    position: absolute;
+                    overflow: hidden;
+                    background: palegoldenrod;
+                    img{
+                        width: 400px;
+                        height: 400px;
+                    }
+                    .len{
+                        width: 200px;
+                        height: 200px;
+                        position: absolute;
+                        background: #CCCCCC;
+                        opacity: 0.5;
+                        display: none;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+                
+                .big{
+                    width: 400px;
+                    height: 400px;
+                    position: absolute;
+                    left: 400px;
+                    overflow: hidden;
+                    display: none;
+                    z-index: 999;
+                    img{
+                        width: 800px;
+                        height: 800px;
+                        position: absolute;
+                    }
+                }
             
-            
+  
             }
             ul{
                 width: 150px;
@@ -141,6 +177,7 @@
                         width: 40px;
                         display: block;
                         float: left;
+                        text-align: center;
                     }                  
                 }
             }
@@ -196,6 +233,7 @@
                     margin-left: 20px;
                     background: #E74C3C;
                     color: white;
+                    cursor: pointer;
                     img{
                         width: 20px;
                         height: 24px;
